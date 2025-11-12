@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* header styling */
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+header h1 {
+  font-size: 34px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 6px 12px;
+}
+nav ul li a:hover {
+  background-color: #0e0b01;
+  border-radius: 4px;
+}
+/* main styling */
+main {
+  padding: 20px 30px;
+}
+/* hero styling */
+.hero {
+  background-color: #f4f4f4;
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.hero h2 {
+  font-size: 28px;
+  color: #333;
+}
+.hero-image img {
+  border-radius: 200px;
+  height: 430px;
+  width: 420px;
+}
+/* about me styling */
+.about {
+  background-color: rgb(223, 226, 225);
+  margin-top: 40px;
+  padding: 20px;
+}
+.about h2 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.about p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+.languages {
+  margin-top: 20px;
+}
+.languages ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.languages ul li {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 6px;
+}
+/* projects */
+.projects {
+  margin-top: 40px;
+}
+.projects h2 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.project-item {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.project-item h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.project-item p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+.project-item a {
+  color: #4caf50;
+  text-decoration: none;
+}
+.project-item a:hover {
+  text-decoration: underline;
+}
+/* contact styling */
+.contact {
+  background-color: rgb(223, 226, 225);
+  margin-top: 40px;
+  padding: 20px;
+}
+.contact h2 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.contact p {
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+}
+
+/* footer styling */
+footer {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+}
