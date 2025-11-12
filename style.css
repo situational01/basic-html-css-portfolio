@@ -90,6 +90,11 @@ main {
 .projects {
   margin-top: 40px;
 }
+.projects,
+div:hover {
+  background-color: #e0e0e0;
+  color: aliceblue;
+}
 .projects h2 {
   font-size: 26px;
   color: #333;
